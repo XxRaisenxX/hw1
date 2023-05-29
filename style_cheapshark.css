@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  form {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+  h1 {
+    text-align: center;
+  }
+  
+  #search-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #game-prices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .price {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    max-width: 100%;
+  }
+  
+  .price h3 {
+    margin-top: 0;
+  }
+  
+  .price p {
+    margin: 5px 0;
+  }
+  
+  .price a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+  }
